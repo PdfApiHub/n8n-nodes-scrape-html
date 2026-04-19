@@ -11,7 +11,7 @@ export class ScrapeHtml implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Scrape Website HTML',
 		name: 'scrapeHtml',
-		icon: { light: 'file:../../icons/icon.svg', dark: 'file:../../icons/icon.svg' },
+		icon: { light: 'file:../../icons/light.svg', dark: 'file:../../icons/dark.svg' },
 		group: ['transform'],
 		version: 1,
 		description: 'Fetch fully-rendered HTML from any webpage including SPAs using PDF API Hub',
